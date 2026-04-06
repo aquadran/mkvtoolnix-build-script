@@ -14,6 +14,6 @@ export QT_CXXFLAGS="-stdlib=libc++"
 export MACOSX_DEPLOYMENT_TARGET="14"
 export DRAKETHREADS=${DRAKETHREADS:-4}
 export MAKEFLAGS="-j ${DRAKETHREADS}"
-export QTVER=${QTVER:-6.10.0}
+export QTVER=${QTVER:-6.10.3}
 export SIGNATURE_IDENTITY="Apple Development: Pawel Kolodziejski"
 export DYLD_LIBRARY_PATH=${TARGET}/lib:${DYLD_LIBRARY_PATH}
